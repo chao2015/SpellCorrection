@@ -1,4 +1,4 @@
-#SpellCorrection Project in C++ Based on Linux Platform
+# SpellCorrection Project in C++ Based on Linux Platform
 
 ----
 
