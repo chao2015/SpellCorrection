@@ -20,8 +20,11 @@ SplitToolCppJieba::~SplitToolCppJieba() {
 
 vector<string> SplitToolCppJieba::Cut(const string& sentence) {
 	cppjieba::Jieba jieba((config_.GetConfigMap())["dict_path"],
-						  (config_.GetConfigMap())["hmm_path"],
-						  (config_.GetConfigMap())["user_dict_path"]);
+			      (config_.GetConfigMap())["hmm_path"],
+			      (config_.GetConfigMap())["user_dict_path"],
+			      (config_.GetConfigMap())["idf_path"],
+			      (config_.GetConfigMap())["stop_word_path"]);
+
 	//vector<string> words;
 	vector<string> jiebawords;
 	
