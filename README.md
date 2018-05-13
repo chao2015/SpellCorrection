@@ -51,7 +51,7 @@ receive msg:no answer!
 
 + 本项目是在linux mint17.2版本的机器上面编写与测试，gcc版本为4.8.4，内核版本为3.16.0。
 + 两年后再次测试环境：centos6.5，安装依赖：gcc-4.8.1（4.4.7不支持c++11）,cppjieba
-+ 运行前，需要在conf/my.conf文件中修改myip和myport部分数据为真实的ip和port信息,同时修改src/client/client.c文件里的对应ip配置。
++ 运行前，需要在conf/my.conf文件中修改myip和myport部分数据为真实的ip和port信息，同时修改src/client/client.c文件里的对应ip配置。
 
 ## 2.编译运行
 
